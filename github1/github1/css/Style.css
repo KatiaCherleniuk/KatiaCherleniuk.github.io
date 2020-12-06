@@ -1,0 +1,227 @@
+*{
+	box-sizing: border-box;
+	font-family: Georgia, serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-family: "Gill Sans", sans-serif;*/
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+img{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.main{
+	background: url(../img/44.jpg)  center center;
+	/*height: 100%;*/
+	height: 100vh;
+	width:100%;
+}
+.mainCaption{
+	color: white;
+	margin-top: 70%;
+}
+.caption{
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+.btnMain{
+	margin-top: 2px;
+	margin-left: 200px;
+	background-color: white;
+}
+
+
+
+
+
+/*Курс*/
+.WhyWe{
+	margin-top: 50px;
+	height: 100%;
+}
+.labels
+{
+	color:white;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: 10px
+
+}
+.form{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	border-radius: 5px;
+	padding: 50px;
+	color: white;
+}
+.submit{
+	background-color:white;
+	border-style: solid;
+	border-width: 3px; 
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 18px;
+	color:#5b4c43;
+	margin-top: 15px;
+}
+.submit:hover{
+transform: scale(1.1);
+}
+.aboutUs{
+	margin-top: 50px;
+}
+p{
+	font-size: 24px;
+}
+.down{
+	background: url(../img/7777.jpg) center;
+	margin-top: 100px;
+}
+.ourCourse{
+word-wrap: break-word;
+}
+.second{
+	margin-top: 100px;
+}
+.reasons{
+	margin-top: 10px;
+	margin-bottom: 100px;
+}
+.why{
+	text-align: center;
+	padding: 100px;
+	color: white;
+}
+.features{
+	margin-top: 20px;
+	color:white;
+	/*font-size: 18px;*/
+	/*text-align: center;*/
+}
+.h21{
+	margin-top: 100px;
+
+}
+.imC{
+	width:230px;
+}
+.imC:hover{
+	/*transform: scale(1.1);*/
+	border-style: solid;
+	border-width: 6px;
+	border-color: #5b4c43;
+}
+a.moreRec{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*Сторінка про рецепти*/
+.recepy{
+	text-align: center;
+	margin-left: 40px;
+}
+.btnRec{
+	margin-left: 120px;
+	margin-top: 20px;
+}
+.recepies{
+	margin-top: 100px;
+	height: 100%;
+}
+.desert{
+	height: 100%;
+	margin-top: 100px;
+}
+.salad{
+	height: 100%;
+}
+.zakuska{
+	height: 100%;
+}
+.spysok{
+	font-size: 20px;
+}
+.imR{
+	height: 420px;
+	width:330px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #5b4c43;
+	border-radius: 12px;
+}
+.h22{
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+/*Меню*/
+.navbar{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	font-size: 16px;
+	background-color: #5b4c43;
+}
+.nav{
+padding: 5px;
+float: right;
+}
+span{
+	float:right;
+	font-size: 20px;
+	color:white;
+}
+ul li.navig{
+	display: inline-block;
+	margin-right: 50px;
+	list-style: none;
+	text-transform: uppercase;
+
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+}
+ul li.navig:hover{
+	transform: scale(1.2); 
+}
+ul li a:hover{
+	text-decoration: none;
+	color:gray;
+}
+.t-cover__arrow {
+    position: absolute;
+    z-index: 9;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
